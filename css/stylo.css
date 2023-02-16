@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+
+}
+header{
+    background: rgb(119,186,232);
+    background: -moz-linear-gradient(0deg, rgba(119,186,232,1) 40%, rgba(70,130,180,1) 40%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(119,186,232,1) 40%, rgba(70,130,180,1) 40%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(0deg, rgba(119,186,232,1) 40%, rgba(70,130,180,1) 40%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#77bae8",endColorstr="#00d4ff",GradientType=1);   
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+.menu {
+    position: relative;
+    display: flex;
+    width: 100%;
+    width: 1200px;
+   
+}
+.social{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    top: 25px;
+    left: 450px;
+    font-size: 25px;
+}
+
+.social a{
+    color: #fff;
+}
+
+.link{
+   
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    right: 0px;
+    top:95px;
+    width: 100%;
+   max-width: 400px;
+   position: absolute;
+   font-size: 18px;
+   
+ 
+
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+.link .red{
+    background-color: #c30d46;
+    width: 230px;
+    max-width: 150px;
+    height: 65px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.link .blue{
+    background-color: #0f5ef0;
+    width: 100%;
+    max-width: 250px;
+    height: 65px;
+    padding: 10px;
+    transition: 1s;
+}
+.red:hover{
+    color: yellow;
+}
+
+.blue:hover{
+    color: yellow;
+}
+.logo{
+    background-image: url("../imagen/falco_logo.png");
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 150px;
+    cursor: pointer;
+}
+.nav{
+    padding-top: 
+    110px;
+
+}
+.nav ul{
+    width: 100%;
+    width: 700px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.nav ul li{
+    margin: 0 20px;
+    padding: 5px;
+}
+.nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+}
+.nav ul li a:hover{
+    padding-bottom: 5px;
+      color:#fff;
+      border-bottom: 1px solid #fff;
+}
+
+/*slide de informação*/
+/*slide de informação*/
+/*slide de informação*/
+.saperection{
+  height: 250px;
+}
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+   
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    max-width: 1300px;
+   
+    margin: 0 auto;
+  }
+  .imag-slide{
+      width: 570px;
+      height: 340px;
+      border: 10px solid #888888;
+      border-radius: 10px;
+  }
+  .imagen-pequena{
+      text-align: center;
+  }
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  
+  
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px 16px;
+   
+    width: 500px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: right;
+    width: 170px;
+    margin: 20px;
+    box-shadow: 8px 8px 10px;
+    border-radius: 10px;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .destaque{
+      background-color: black;
+      color: #fff;
+      border-radius: 0 0 10px 10px;
+      font-size: 16px;
+      margin: 5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  /*finalizada sessão de slide de informação*/ 
+  /*finalizada sessão de slide de informação*/ 
+  /*finalizada sessão de slide de informação*/ 
+
+
+  .first{
+    height: 620px;
+    margin-bottom: 100px;
+  }
+  .second{
+    margin: 0 auto;
+    width: 1000%;
+    max-width: 1200px;
+    border-top: 3px solid #0f5ef0 ;
+    padding-top: 60px;
+  }
+  .equipamentos-todos{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+    color: rgb(4, 27, 27);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .video{
+    display: flex;
+    justify-content: space-around;
+  }
+.frame{
+ width: 670px;
+ height: 370px;
+}
+.texto-video{
+    width: 400px;
+}
+.texto-video h2{
+    margin: 0 0 30px 0 ;
+    font-size: 30px;
+    text-decoration: underline;
+}
+/*Formulario
+/*formulario
+/*form*/
+.contato{
+
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            margin: 5% auto;
+        }
+        .texto{
+         display: block;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+     
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            
+           
+            
+        }
+        .formulario input{
+            width: 40   0px;
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(204, 203, 203);
+            margin: 10px;
+            outline: none;
+            padding: 8px;
+            font-size: 18px;
+        }
+        .formulario [type="submit" ]{
+            background-color: rgb(83, 43, 226);
+            width: 280px;
+            margin: 25px auto;
+            font-size: 18px;
+            cursor: pointer;
+            color: #fff;
+            text-transform: uppercase;
+            
+        }
+
+#mensagem{
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+.seta{
+  position: fixed;
+  right: 20px;
+  bottom: 250px;
+}
+/*fim*/
+footer{
+  padding: 20px;
+  background-color: rgb(230, 225, 225);
+  text-align: center;
+}
+.logos{
+  
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}
